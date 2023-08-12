@@ -22,10 +22,7 @@ export const App = () => {
   }, [todos]);
 
   const addTodo = text => {
-    const todo = {
-      id: nanoid(),
-      text,
-    };
+    const todo = ''
     setTodos(prevState => [...prevState, todo]);
   };
 
