@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
 
 import {
@@ -21,7 +20,7 @@ export const App = () => {
       <Section>
         <Container>
           <SearchForm />
-<Filter />
+          <Filter />
           {todos.length === 0 && (
             <Text textAlign="center">There are no any todos ... </Text>
           )}
